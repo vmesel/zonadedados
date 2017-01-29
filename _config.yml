@@ -1,1 +1,43 @@
-theme: jekyll-theme-time-machine
+name: Zona de Dados
+description: Blog sobre novidades, curiosidades e outros assuntos sobre dados!
+meta_description: "Zona de Dados, Blog sobre novidades, curiosidades e outros assuntos sobre dados!"
+
+aboutPage: true
+
+markdown: kramdown
+highlighter: rouge
+
+gems: [jekyll-paginate]
+paginate: 20
+baseurl: /
+domain_name: 'http://zonadedados.com'
+google_analytics: 'UA-91017675-1'
+disqus: false
+disqus_shortname: 'zonadedados'
+
+# Details for the RSS feed generator
+url:            'http://zonadedados.com'
+author:         'Vinicius Mesel'
+authorTwitter:  'vmesel'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
