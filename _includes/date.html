@@ -1,7 +1,7 @@
 {% capture hide %}
 
   {% capture day %}{{ include.date | date: "%-d" }}{% endcapture %}
-  {% if include.mode != 'month' %}
+  {% if include.mode == month %}
     {% assign m = include.date | date: "%-m" %}
     {% case m %}
       {% when '1' %}
@@ -29,7 +29,8 @@
       {% when '12' %}
         {% capture month %}dezembro{% endcapture %}
     {% endcase %}
-  {% else %}
+  {% endif %}
+  {% if include.mode == mon %}
     {% assign m = include.date | date: "%-m" %}
     {% case m %}
       {% when '1' %}
