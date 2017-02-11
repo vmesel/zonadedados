@@ -1,6 +1,7 @@
 #  cache
 _site/
 .sass-cache
+.jekyll-metadata
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
