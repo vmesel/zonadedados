@@ -18,7 +18,7 @@ A maioria dos artigos que serão relatados neste blog serão nas áreas de:
 - Engenharia de Feature;
 - Big Data/Grandes Massas de dados;
 - Desenvolvimento de processadores de dados;
-- Desenvolvimento de métodos de machine learning; e
+- Desenvolvimento de métodos de machine learning;
 - E muitos outros assuntos que envolvam estatística e probabilidade.
 
 
