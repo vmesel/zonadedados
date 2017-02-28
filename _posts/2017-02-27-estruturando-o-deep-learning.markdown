@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Aprenda Deep Learning: Escolhendo a arquitetura de seu modelo"
-date:   2017-02-27 19:22:00 -0200
+date:   2017-02-27 19:22:00 -0300
 categories: zonadedados deep-learning
 ---
 
